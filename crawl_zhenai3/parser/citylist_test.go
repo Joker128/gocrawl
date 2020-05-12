@@ -1,8 +1,8 @@
 package parser
 
 import (
+	"gocrawl/crawl_zhenai3/fetcher"
 	"testing"
-	"crawl_zhenai3/fetcher"
 )
 
 func TestParseCityList(t *testing.T){

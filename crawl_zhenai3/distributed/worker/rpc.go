@@ -1,6 +1,6 @@
 package worker
 
-import "crawl_zhenai3/engine"
+import "gocrawl/crawl_zhenai3/engine"
 
 type CrawlService struct {
 }

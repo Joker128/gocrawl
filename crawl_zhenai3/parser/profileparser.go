@@ -1,15 +1,15 @@
 package parser
 
 import (
-	"crawl_zhenai3/engine"
-	"regexp"
-	"log"
-	"github.com/bitly/go-simplejson"
-	"crawl_zhenai3/model"
 	"fmt"
-	"strings"
+	"github.com/bitly/go-simplejson"
+	"gocrawl/crawl_zhenai3/distributed/config"
+	"gocrawl/crawl_zhenai3/engine"
+	"gocrawl/crawl_zhenai3/model"
+	"log"
+	"regexp"
 	"strconv"
-	"crawl_zhenai3/distributed/config"
+	"strings"
 )
 
 var re = regexp.MustCompile(`<script>window.__INITIAL_STATE__=(.+);\(function`)

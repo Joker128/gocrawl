@@ -1,11 +1,11 @@
 package parser
 
 import (
-	"regexp"
-	"crawl_zhenai3/engine"
 	"github.com/bitly/go-simplejson"
+	"gocrawl/crawl_zhenai3/distributed/config"
+	"gocrawl/crawl_zhenai3/engine"
 	"log"
-	"crawl_zhenai3/distributed/config"
+	"regexp"
 )
 
 //const cityListRe = `<a href="(http://www.zhenai.com/zhenghun/[0-9a-z]+)" [^>]*>([^<]+)</a>`

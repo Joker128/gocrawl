@@ -1,17 +1,17 @@
 package main
 
 import (
-	"crawl_zhenai3/scheduler"
-	"crawl_zhenai3/engine"
-	"crawl_zhenai3/parser"
-	"crawl_zhenai3/distributed/persist/client"
-	"fmt"
-	"crawl_zhenai3/distributed/config"
-	client2 "crawl_zhenai3/distributed/worker/client"
-	"net/rpc"
-	"crawl_zhenai3/distributed/rpcsupport"
-	"log"
 	"flag"
+	"fmt"
+	"gocrawl/crawl_zhenai3/distributed/config"
+	"gocrawl/crawl_zhenai3/distributed/persist/client"
+	"gocrawl/crawl_zhenai3/distributed/rpcsupport"
+	client2 "gocrawl/crawl_zhenai3/distributed/worker/client"
+	"gocrawl/crawl_zhenai3/engine"
+	"gocrawl/crawl_zhenai3/parser"
+	"gocrawl/crawl_zhenai3/scheduler"
+	"log"
+	"net/rpc"
 	"strings"
 )
 
@@ -21,8 +21,6 @@ var (
 )
 
 func main() {
-
-
 	url := "http://www.zhenai.com/zhenghun"
 
 	//itemChan, err := persist.ItemSaver("datint_profile")

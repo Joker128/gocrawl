@@ -1,15 +1,15 @@
 package fetcher
 
 import (
-	"net/http"
-	"io/ioutil"
-	"fmt"
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/transform"
 	"bufio"
+	"fmt"
 	"golang.org/x/net/html/charset"
+	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/unicode"
+	"golang.org/x/text/transform"
+	"io/ioutil"
 	"log"
+	"net/http"
 )
 
 /**

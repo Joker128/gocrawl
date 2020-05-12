@@ -1,9 +1,9 @@
 package persist
 
 import (
-	"crawl_zhenai3/engine"
 	"github.com/olivere/elastic"
-	"crawl_zhenai3/persist"
+	"gocrawl/crawl_zhenai3/engine"
+	"gocrawl/crawl_zhenai3/persist"
 	"log"
 )
 

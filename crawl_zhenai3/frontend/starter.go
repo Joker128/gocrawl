@@ -1,8 +1,8 @@
 package main
 
 import (
+	"gocrawl/crawl_zhenai3/frontend/controller"
 	"net/http"
-	"crawl_zhenai3/frontend/controller"
 )
 
 func main() {

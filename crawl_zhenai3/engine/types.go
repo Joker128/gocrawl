@@ -1,8 +1,8 @@
 package engine
 
 import (
-	"crawl_zhenai3/model"
-	"crawl_zhenai3/distributed/config"
+	"gocrawl/crawl_zhenai3/distributed/config"
+	"gocrawl/crawl_zhenai3/model"
 )
 
 //解析后返回的结果

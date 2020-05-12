@@ -1,9 +1,9 @@
 package parser
 
 import (
-	"crawl_zhenai3/engine"
+	"gocrawl/crawl_zhenai3/distributed/config"
+	"gocrawl/crawl_zhenai3/engine"
 	"regexp"
-	"crawl_zhenai3/distributed/config"
 )
 
 var (

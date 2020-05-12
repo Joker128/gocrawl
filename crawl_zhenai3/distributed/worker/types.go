@@ -1,11 +1,11 @@
 package worker
 
 import (
-	"crawl_zhenai3/engine"
-	"crawl_zhenai3/distributed/config"
-	"crawl_zhenai3/parser"
-	"github.com/pkg/errors"
 	"fmt"
+	"github.com/pkg/errors"
+	"gocrawl/crawl_zhenai3/distributed/config"
+	"gocrawl/crawl_zhenai3/engine"
+	"gocrawl/crawl_zhenai3/parser"
 	"log"
 )
 

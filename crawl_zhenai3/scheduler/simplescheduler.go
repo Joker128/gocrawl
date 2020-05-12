@@ -1,6 +1,6 @@
 package scheduler
 
-import "crawl_zhenai3/engine"
+import "gocrawl/crawl_zhenai3/engine"
 
 type SimpleScheduler struct {
 	workerChan chan engine.Request

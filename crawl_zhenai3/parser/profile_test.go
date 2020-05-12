@@ -1,10 +1,10 @@
 package parser
 
 import (
-	"testing"
+	"gocrawl/crawl_zhenai3/engine"
+	"gocrawl/crawl_zhenai3/model"
 	"io/ioutil"
-	"crawl_zhenai3/model"
-	"crawl_zhenai3/engine"
+	"testing"
 )
 
 func TestParseProfile(t *testing.T) {

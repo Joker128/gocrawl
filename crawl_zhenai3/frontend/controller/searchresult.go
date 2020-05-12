@@ -1,17 +1,17 @@
 package controller
 
 import (
-	"github.com/olivere/elastic"
-	"net/http"
-	"strings"
-	"strconv"
-	"crawl_zhenai3/frontend/view"
-	"crawl_zhenai3/frontend/model"
 	"context"
 	"fmt"
+	"github.com/olivere/elastic"
+	"gocrawl/crawl_zhenai3/engine"
+	"gocrawl/crawl_zhenai3/frontend/model"
+	"gocrawl/crawl_zhenai3/frontend/view"
+	"net/http"
 	"reflect"
-	"crawl_zhenai3/engine"
 	"regexp"
+	"strconv"
+	"strings"
 )
 
 type SearchResultHandler struct {

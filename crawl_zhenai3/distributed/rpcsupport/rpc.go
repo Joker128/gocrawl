@@ -1,10 +1,10 @@
 package rpcsupport
 
 import (
+	"log"
+	"net"
 	"net/rpc"
 	"net/rpc/jsonrpc"
-	"net"
-	"log"
 )
 
 func ServeRpc(host string, service interface{}) error {

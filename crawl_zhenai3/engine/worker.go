@@ -1,7 +1,7 @@
 package engine
 
 import (
-	"crawl_zhenai3/fetcher"
+	"gocrawl/crawl_zhenai3/fetcher"
 	"log"
 )
 

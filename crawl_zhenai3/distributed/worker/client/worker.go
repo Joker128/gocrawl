@@ -1,9 +1,9 @@
 package client
 
 import (
-	"crawl_zhenai3/engine"
-	"crawl_zhenai3/distributed/config"
-	"crawl_zhenai3/distributed/worker"
+	"gocrawl/crawl_zhenai3/distributed/config"
+	"gocrawl/crawl_zhenai3/distributed/worker"
+	"gocrawl/crawl_zhenai3/engine"
 	"net/rpc"
 )
 

@@ -1,7 +1,7 @@
 package scheduler
 
 import (
-	"crawl_zhenai3/engine"
+	"gocrawl/crawl_zhenai3/engine"
 )
 
 type QueuedScheduler struct {

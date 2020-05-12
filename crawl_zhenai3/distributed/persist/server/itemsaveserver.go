@@ -1,13 +1,13 @@
 package main
 
 import (
-	"crawl_zhenai3/distributed/rpcsupport"
-	"crawl_zhenai3/distributed/persist"
-	"github.com/olivere/elastic"
-	"fmt"
 	"flag"
+	"fmt"
+	"github.com/olivere/elastic"
+	"gocrawl/crawl_zhenai3/distributed/config"
+	"gocrawl/crawl_zhenai3/distributed/persist"
+	"gocrawl/crawl_zhenai3/distributed/rpcsupport"
 	"log"
-	"crawl_zhenai3/distributed/config"
 )
 
 var port = flag.Int("port", 0, "the port for me to listen on")
